@@ -29,7 +29,7 @@ public class MyStepDefs {
     private HourGlass hourGlass;
 
     // ange webbadress
-    private final String URL = "https://login.mailchimp.com/signup/";
+
 
     @Before
     public void setUp() {
@@ -39,7 +39,8 @@ public class MyStepDefs {
 
     @Given("I open {string} and navigates to the website")
     public void iOpenAndNavigatesToTheWebsite(String browser) {
-
+        // ange webbadress
+        String URL = "https://login.mailchimp.com/signup/";
         // Välj webbläsare från exemplen i scenariot
         if (browser.equalsIgnoreCase("firefox")) {
             System.out.println(" Executing on FireFox");
@@ -116,8 +117,8 @@ public class MyStepDefs {
 
     }
 
-    @Then("hope its a success.")
-    public void hopeItsASuccess() {
+    @Then("hope its a success or at least show the correct {string}.")
+    public void hopeItsASuccessOrAtLeastShowTheCorrect(String error) {
     // Vänta till det antingen är en lyckad registrering eller felmeddelanden
     hourGlass.posted();
 
@@ -125,7 +126,6 @@ public class MyStepDefs {
     boolean success = false;
     // Hämta aktuell URL
     String current_url = driver.getCurrentUrl();
-
 
     if (current_url.contains("/success")) {
         // Har registreringen lyckats, märk den som lyckad
@@ -136,6 +136,9 @@ public class MyStepDefs {
         List<WebElement> elements = driver.findElements(By.cssSelector(".invalid-error"));
         for (WebElement element : elements) {
             System.out.println("Error:" + element.getText());
+
+            if (error.equals(element.getText())) success = true;
+
         }
     }
 

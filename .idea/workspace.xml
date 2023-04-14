@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa926966-5a77-4cdf-bda3-6b9352e0794c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_Features_in__test__1_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hgj/chimptest/HourGlass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hgj/chimptest/MyStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/se/hgj/chimptest/TestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/se.hgj.chimptest/RegisterChimp.feature" afterDir="false" />
+    <list default="true" id="fa926966-5a77-4cdf-bda3-6b9352e0794c" name="Changes" comment="Here we go">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/se/hgj/chimptest/MyStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/se/hgj/chimptest/MyStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/se.hgj.chimptest/RegisterChimp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/se.hgj.chimptest/RegisterChimp.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,14 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -233,7 +232,29 @@
       <option name="presentableId" value="Default" />
       <updated>1680681724530</updated>
     </task>
+    <task id="LOCAL−00001" summary="Here we go">
+      <created>1681367877604</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1681367877604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Here we go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Here we go" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
